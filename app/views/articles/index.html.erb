@@ -1,0 +1,39 @@
+<div class="row">
+	<div class="col-md-9 sectioncontainer">
+
+		<h3><b>Статьи PMI Kyiv Chapter</b></h3>		
+			
+		<% @articles.order('id DESC').each do |article| %>
+		
+			<h4><%= article.title %></h4>
+			<span><%= article.short_article.html_safe %></span>
+			<table width="100%">
+	    		<tr>
+					<td style="text-align: left;">
+						<span style="color: gray"><i><%= article.created_at.strftime("%d/%m/%Y") %>, <%= article.author %></i></span>
+	        		</td>
+					<td style="width: 40%; text-align: right;"> 
+	    				<%= link_to 'Читать полностью...', article %>
+	    			</td>
+	    		</tr>
+	    	</table>
+    		<br>
+		<% end %>
+	
+		<br>
+
+	</div>
+	
+	<div class="col-md-3 sectioncontainer" style="text-align: center">
+		<br>
+		<!-- <a href="http://spiderproject.com.ua/community/rating/" target="blank"><img style="-webkit-user-select: none;" src="http://spiderproject.com.ua/upload/bx/608/baner.rating_430x250_5.gif" width="100%" height="100%"></a> --> 
+		<br>
+		<br>
+		<span>Good Things Happen when you Get Involved with PMI!</span>
+		<br>
+		<br>
+	</div>
+</div>
+
+
+

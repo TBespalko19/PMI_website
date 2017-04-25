@@ -1,0 +1,9 @@
+<div class="row">	
+	<div class="col-md-12 sectioncontainer">		
+		<% c = @elections.order('id DESC').first %>
+		<h3><b><%= c.title %></b></h3>
+		<span><%= c.body.html_safe %></span>
+		<br>
+	</div>	
+</div>
+

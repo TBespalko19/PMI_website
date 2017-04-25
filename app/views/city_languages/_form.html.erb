@@ -1,0 +1,29 @@
+<%= form_for(@city_language) do |f| %>
+  <% if @city_language.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@city_language.errors.count, "error") %> prohibited this city_language from being saved:</h2>
+
+      <ul>
+      <% @city_language.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :lang_id %><br>
+    <%= f.number_field :lang_id %>
+  </div>
+  <div class="field">
+    <%= f.label :city_id %><br>
+    <%= f.number_field :city_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

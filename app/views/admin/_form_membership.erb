@@ -1,0 +1,44 @@
+<table class='table-admin'>
+	<tr>
+		<%= link_to new_membership_path do %>
+		<i class="btn btn-info">Добавить страницу "Членство"</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>Заголовок страницы</th>
+		<th>Язык</th>
+		<th>Дата создания</th>
+		<th>Дата последнего обновления</th>
+		<th></th>
+	</tr>
+	<% @memberships.order('id DESC').each do |membership| %>
+	<tr>
+		<td>		
+			<p><%= membership.title %></p>
+   		</td>
+		<td>			
+			<p><%= membership.lang_id %></p>
+   		</td>
+		<td>			
+			<p><%= membership.created_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+		<td>			
+			<p><%= membership.updated_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+		<td class="admintable_column_operations"> 
+			<div>
+				<%= link_to membership, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>		
+				<% end %>
+   				<%= link_to edit_membership_path(membership) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+   				<% end %>
+   				<%= link_to membership, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление страницы "Членство"' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i> 
+   				<% end %>
+   			</div>   			
+		</td>
+	</tr>
+	<% end %>
+</table>

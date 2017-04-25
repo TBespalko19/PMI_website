@@ -1,0 +1,29 @@
+<h1>Listing city_languages</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Lang</th>
+      <th>City</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @city_languages.each do |city_language| %>
+      <tr>
+        <td><%= city_language.title %></td>
+        <td><%= city_language.lang_id %></td>
+        <td><%= city_language.city_id %></td>
+        <td><%= link_to 'Show', city_language %></td>
+        <td><%= link_to 'Edit', edit_city_language_path(city_language) %></td>
+        <td><%= link_to 'Destroy', city_language, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New City language', new_city_language_path %>

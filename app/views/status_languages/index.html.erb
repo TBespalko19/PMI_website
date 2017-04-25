@@ -1,0 +1,29 @@
+<h1>Listing status_languages</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Status</th>
+      <th>Lang</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @status_languages.each do |status_language| %>
+      <tr>
+        <td><%= status_language.title %></td>
+        <td><%= status_language.status_id %></td>
+        <td><%= status_language.lang_id %></td>
+        <td><%= link_to 'Show', status_language %></td>
+        <td><%= link_to 'Edit', edit_status_language_path(status_language) %></td>
+        <td><%= link_to 'Destroy', status_language, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Status language', new_status_language_path %>

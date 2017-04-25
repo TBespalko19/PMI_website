@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @simple_registration.event_id %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @simple_registration.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @simple_registration.last_name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @simple_registration.phone %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @simple_registration.email %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @simple_registration.company %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @simple_registration.city %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @simple_registration.comment %>
+</p>
+
+<%= link_to 'Edit', edit_simple_registration_path(@simple_registration) %> |
+<%= link_to 'Back', simple_registrations_path %>

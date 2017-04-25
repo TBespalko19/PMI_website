@@ -1,0 +1,82 @@
+<div class="row">	
+	<div class="col-md-12 sectioncontainer">
+	<h3><b>Admin panel</b></h3>
+	</div>
+	<div class="col-md-3 sectioncontainer">
+		<span>Пожалуйста, выберите раздел:</span>
+		<select id="category_id" onchange="category_onchange();">
+			<option value="news">Новости</option>
+			<option value="abouts">Об организации</option>
+			<option value="contacts">Контакты</option>
+			<option value="certifications">Сертификация</option>
+			<option value="memberships">Членство</option>
+			<option value="articles">Статьи</option>
+			<option value="events">Мероприятия</option>
+			<option value="volunteers">Волонтерство в PMI Ukraine Chapter</option>
+			<option value="elections">Выборы</option>
+		</select>		
+		<% if params['notice']!=nil %>
+			<p id="notice" style="padding-top: 15px"> <%= params['notice'] %> </p> 
+		<% end %>
+	</div>	
+	<div class="col-md-9 sectioncontainer" id="content">		
+		<%= render 'form_news' if cookies['selected_category_id']=='news' %>
+		<%= render 'form_about' if cookies['selected_category_id']=='abouts' %>
+		<%= render 'form_certification' if cookies['selected_category_id']=='certifications' %>
+		<%= render 'form_contact' if cookies['selected_category_id']=='contacts' %>
+		<%= render 'form_membership' if cookies['selected_category_id']=='memberships' %>
+		<%= render 'form_article' if cookies['selected_category_id']=='articles' %>
+		<%= render 'form_event' if cookies['selected_category_id']=='events' %>
+		<%= render 'form_volunteer' if cookies['selected_category_id']=='volunteers' %>
+		<%= render 'form_election' if cookies['selected_category_id']=='elections' %>
+		<br>
+	</div>	
+</div>
+
+<script type="text/javascript">
+
+	$(function() {
+		var v = document.getElementById('category_id');
+		v.value = readCookie('selected_category_id');
+		if (v.value == '') {
+			v.value = 'news';
+			category_onchange();
+		};
+	});
+	
+	window.onload = function() {
+	}
+
+	function readCookie(name) {
+		match = document.cookie.match(new RegExp(name + '=([^;]+)'));
+		if (match) return match[1];     
+	}
+ 
+	function category_onchange() {
+		var v = document.getElementById('category_id');
+		document.cookie = 'selected_category_id='+v.value;
+		location.reload();
+		location.search = '';
+	}  
+  
+  function removeURLParameter(url, parameter) {
+		//prefer to use l.search if you have a location/link object
+		var urlparts= url.split('?');   
+		if (urlparts.length>=2) {
+			var prefix= encodeURIComponent(parameter)+'=';
+			var pars= urlparts[1].split(/[&;]/g);
+			
+			//reverse iteration as may be destructive
+			for (var i= pars.length; i-- > 0;) {    
+				//idiom for string.startsWith
+				if (pars[i].lastIndexOf(prefix, 0) !== -1) {  
+					pars.splice(i, 1);
+				}
+			}
+			url= urlparts[0]+'?'+pars.join('&');
+			return url;
+		} else {
+			return url;
+		}
+	}
+</script>

@@ -1,0 +1,46 @@
+<table class='table-admin'>
+	<tr>
+		<%= link_to new_certification_path do %>
+		<i class="btn btn-info">Добавить страницу "Сертификация"</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>Заголовок страницы</th>
+		<th>Язык</th>
+		<th>Дата создания</th>
+		<th>Дата последнего обновления</th>
+		<th></th>
+	</tr>
+	
+	<% @certifications.order('id DESC').each do |certification| %>
+	<tr>
+		<td>			
+			<p><%= certification.title %></p>
+   		</td>
+		<td>			
+			<p><%= certification.lang_id %></p>
+   		</td>
+		<td>			
+			<p><%= certification.created_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+   		<td>
+   			<p><%= certification.updated_at.localtime.to_formatted_s(:db)%></p>
+   		</td>
+   		
+   		<td class="admintable_column_operations">
+   			<div> 
+				<%= link_to certification, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>		
+				<% end %>
+	   			<%= link_to edit_certification_path(certification) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+	  			<% end %>
+	   			<%= link_to certification, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление страницы "Сертификация"' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i> 
+	   			<% end %>
+	   		</div>
+		</td>
+	</tr>
+	<% end %>
+</table>

@@ -1,0 +1,44 @@
+<table class='table-admin'>
+	<tr>
+		<%= link_to new_about_path do %>
+		<i class="btn btn-info">Добавить страницу "Об огранизации"</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>Заголовок страницы</th>
+		<th>Язык</th>
+		<th>Дата создания</th>
+		<th>Дата последнего обновления</th>
+		<th></th>
+	</tr>
+	<% @abouts.order('id DESC').each do |about| %>
+	<tr>
+		<td>		
+			<p><%= about.title %></p>
+   		</td>
+		<td>			
+			<p><%= about.lang_id %></p>
+   		</td>
+		<td>			
+			<p><%= about.created_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+		<td>			
+			<p><%= about.updated_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+		<td class="admintable_column_operations">
+			<div> 
+				<%= link_to about, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>		
+				<% end %>
+	   			<%= link_to edit_about_path(about) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+	   			<% end %>
+	   			<%= link_to about, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление страницы "Об организации"' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i> 
+	   			<% end %>
+	   		</div>
+		</td>
+	</tr>
+	<% end %>
+</table>

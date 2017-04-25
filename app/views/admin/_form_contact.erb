@@ -1,0 +1,45 @@
+<table class='table-admin'>
+	<tr>
+		<%= link_to new_contact_path do %>
+		<i class="btn btn-info">Добавить страницу "Контакты"</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>Название страницы</th>
+		<th>Язык</th>
+		<th>Дата создания</th>
+		<th>Дата последнего обновления</th>
+		<th></th>		
+	</tr>
+	<% @contacts.order('id DESC').each do |contact| %>
+	<tr>
+		<td>			
+			<p><%= contact.title %></p>
+   		</td>
+   		<td>
+   			<p><%= contact.lang_id %></p>
+   		</td>
+   		<td>
+   			<p><%= contact.created_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+   		<td>
+   			<p><%= contact.updated_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+   		
+   		<td class="admintable_column_operations">
+   			<div> 
+				<%= link_to contact, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>			
+				<% end %>
+	   			<%= link_to edit_contact_path(contact) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+	   			<% end %>
+	   			<%= link_to contact, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление страницы "Контакты"' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i> 
+	   			<% end %>
+	   		</div>   			
+		</td>
+	</tr>
+	<% end %>
+</table>

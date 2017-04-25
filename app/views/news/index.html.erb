@@ -1,0 +1,58 @@
+<div class="row">
+	
+	<div class="col-md-8 sectioncontainer">
+		<h3><b>Новости PMI Kyiv Chapter</b></h3>	
+			<% @news.order('publish_date DESC').each do |news| %>
+				<h4><%= news.title %></h4>
+				<span><%= news.short_news.html_safe %></span>
+				<table width="100%">
+		    		<tr>
+						<td style="text-align: left;">
+							<span style="color: gray"><i><%= news.publish_date.strftime("%d/%m/%Y") %>, <%= news.author %></i></span>
+		        		</td>
+						<td style="width: 40%; text-align: right;"> 
+		    				<%= link_to 'Читать далее...', news %>
+		    			</td>
+		    		</tr>
+		    	</table>
+	    		<br>
+			<% end %>
+		<br>
+		<div class="page_pagination" style="text-align:center"> <%= will_paginate @news %>	</div>
+	</div>
+
+	<div class="col-md-4 sectioncontainer" style="text-align: center">
+		<br>
+		<b><a href="https://marketplace.pmi.org/Pages/QuickMembershipRenewal.aspx?componentcode=C236&returnURL=http%3a%2f%2fwww.pmiukraine.org&language=ua-UA" target="_blank">Быстрая ссылка для продление членства PMI</a></b>
+	    <br />
+		<span style="text-align: center"><h4>Ближайшие мероприятия</h4></span>
+		<div id="accordion" class="box">
+        	<% @events.order('start_date ASC').each do |event| %>
+	        	<span style="font-size: 13px;">
+	        		<%= event.start_date.to_formatted_s(:short)%>, <%= event.city.city_languages.first.title %><br>
+	        		<%= event.event_languages.first.title %>
+	        	</span>
+	            <div class="box">
+	                <span><%= event.event_languages.first.short_event.html_safe %></span>
+	                <span><%= link_to event do %>Детальная информация...<% end %></span>
+	            </div>
+	        <% end %>
+	    </div>
+	    <br>
+		<a href="http://spiderproject.com.ua/community/rating/" target="blank"><img style="-webkit-user-select: none;" src="http://www.pmiukraine.org/images/rating2015.gif" width="100%" height="100%"></a> 
+	    <br>
+	    <br>
+		<span>Good Things Happen when you Get Involved with PMI!</span>
+		<br>
+		<br>
+	</div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#accordion").accordion({ heightStyle: "content" });
+    });
+</script>
+
+
+

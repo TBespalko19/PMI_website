@@ -1,0 +1,39 @@
+<table class='table-admin'>
+	<tr><%= link_to new_news_path do %>
+			<i class="btn btn-info">Добавить новость</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>Заголовок новости</th>
+		<th>Язык</th>
+		<th>Дата публикации</th>
+		<th></th>
+	</tr>
+	<% @news.order('id DESC').each do |news| %>
+	<tr>
+		<td>
+			<p><%= news.title %></p>
+   		</td>
+		<td>			
+			<p><%= news.lang_id %></p>
+   		</td>
+		<td>			
+			<p><%= news.publish_date.localtime.to_formatted_s(:db) %></p>
+   		</td>
+   		<td class="admintable_column_operations">
+   			<div> 
+				<%= link_to news, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>
+				<% end %>
+				<%= link_to edit_news_path(news) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+				<% end %>   			
+	   			<%= link_to news, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление новости' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i>
+	   			<% end %>
+	   		</div>
+		</td>
+	</tr>
+	<% end %>
+</table>

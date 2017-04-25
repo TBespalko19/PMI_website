@@ -1,0 +1,45 @@
+<table class='table-admin'>
+	<tr>
+		<%= link_to new_election_path do %>
+		<i class="btn btn-info">Добавить страницу "Выборы"</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>Название страницы</th>
+		<th>Язык</th>
+		<th>Дата создания</th>
+		<th>Дата последнего обновления</th>
+		<th></th>		
+	</tr>
+	<% @elections.order('id DESC').each do |election| %>
+	<tr>
+		<td>			
+			<p><%= election.title %></p>
+   		</td>
+   		<td>
+   			<p><%= election.lang_id %></p>
+   		</td>
+   		<td>
+   			<p><%= election.created_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+   		<td>
+   			<p><%= election.updated_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+   		
+   		<td class="admintable_column_operations">
+   			<div> 
+				<%= link_to election, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>			
+				<% end %>
+	   			<%= link_to edit_election_path(election) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+	   			<% end %>
+	   			<%= link_to election, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление страницы "Выборы"' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i> 
+	   			<% end %>
+	   		</div>   			
+		</td>
+	</tr>
+	<% end %>
+</table>

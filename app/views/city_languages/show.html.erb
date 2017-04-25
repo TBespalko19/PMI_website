@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @city_language.title %>
+</p>
+
+<p>
+  <strong>Lang:</strong>
+  <%= @city_language.lang_id %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @city_language.city_id %>
+</p>
+
+<%= link_to 'Edit', edit_city_language_path(@city_language) %> |
+<%= link_to 'Back', city_languages_path %>

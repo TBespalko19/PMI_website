@@ -1,0 +1,104 @@
+<div class="row">
+	
+	<div class="col-md-9 sectioncontainer">
+		<h3><b>Мероприятия PMI Kyiv Chapter</b></h3>
+		<br>
+			<h4><b>Предстоящие мероприятия PMI Kyiv Chapter и PMI R.E.P. в Украине</b></h4>		
+			<table class='table-blue'>
+				<tr class="rowH">
+					<th></th>
+					<th>Мероприятие</th>
+					<th>Статус</th>
+					<th>Дата/время начала</th>
+					<th>Дата/время окончания</th>
+					<th>Длительность (час.)</th>
+					<th>Город</th>
+				</tr>
+				<% @events.order('start_date ASC').each do |event| %>
+				<tr class="rowA">
+					<td>
+			   			<div> 
+							<%= link_to event do %>
+								<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>
+							<% end %>
+				   		</div>
+			   		</td>
+					<td>
+						<p><%= event.event_languages.first.title %></p>
+			   		</td>
+					<td>			
+						<p><%= event.status.status_languages.first.title %></p>
+			   		</td>
+			   		<td width="100px">
+			   			<p><%= event.start_date.to_formatted_s(:rfc822) %></p>
+			   		</td>
+			   		<td width="100px">
+			   			<p><%= event.end_date.to_formatted_s(:rfc822) %></p>
+			   		</td>
+			   		<td>
+			   			<p><%= event.duration %></p>
+			   		</td>
+			   		<td>
+			   			<p><%= event.city.city_languages.first.title %></p>
+			   		</td>
+				</tr>
+				<% end %>
+			</table>
+		<div class="page_pagination" style="text-align:center"> <%= will_paginate @events %> </div>
+				<h4><b>Прошедшие мероприятия PMI Kyiv Chapter и PMI R.E.P. в Украине</b></h4>	
+			<table class='table-blue'>
+				<tr class="rowH">
+					<th></th>
+					<th>Мероприятие</th>
+					<th>Статус</th>
+					<th>Дата/время начала</th>
+					<th>Дата/время окончания</th>
+					<th>Длительность (час.)</th>
+					<th>Город</th>
+				</tr>
+				<% @events_done.order('end_date DESC').each do |event| %>
+				<tr class="rowA">
+					<td>
+			   			<div> 
+							<%= link_to event do %>
+								<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>
+							<% end %>
+				   		</div>
+			   		</td>
+					<td>
+						<p><%= event.event_languages.first.title %></p>
+			   		</td>
+					<td>			
+						<p><%= event.status.status_languages.first.title %></p>
+			   		</td>
+			   		<td width="100px">
+			   			<p><%= event.start_date.to_formatted_s(:rfc822) %></p>
+			   		</td>
+			   		<td width="100px">
+			   			<p><%= event.end_date.to_formatted_s(:rfc822) %></p>
+			   		</td>
+			   		<td>
+			   			<p><%= event.duration %></p>
+			   		</td>
+			   		<td>
+			   			<p><%= event.city.city_languages.first.title %></p>
+			   		</td>
+				</tr>
+				<% end %>
+			</table>
+		<br>
+		<div class="page_pagination" style="text-align:center"> <%= will_paginate @events %> </div>
+	</div>
+
+	<div class="col-md-3 sectioncontainer" style="text-align: center">
+		<br>
+		<!-- <a href="http://spiderproject.com.ua/community/rating/" target="blank"><img style="-webkit-user-select: none;" src="http://spiderproject.com.ua/upload/bx/608/baner.rating_430x250_5.gif" width="100%" height="100%"></a> --> 
+		<br>
+		<br>
+		<span>Good Things Happen when you Get Involved with PMI!</span>
+		<br>
+		<br>
+	</div>
+	
+</div>
+

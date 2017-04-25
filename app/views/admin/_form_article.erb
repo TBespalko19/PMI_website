@@ -1,0 +1,44 @@
+<table class='table-admin'>
+	<tr>
+		<%= link_to new_article_path do %>
+		<i class="btn btn-info">Добавить статью</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>Заголовок страницы</th>
+		<th>Язык</th>
+		<th>Дата создания</th>
+		<th>Дата последнего обновления</th>
+		<th></th>
+	</tr>
+	<% @articles.order('id DESC').each do |article| %>
+		<tr>
+		<td>		
+			<p><%= article.title %></p>
+   		</td>
+		<td>			
+			<p><%= article.lang_id %></p>
+   		</td>
+		<td>			
+			<p><%= article.created_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+		<td>			
+			<p><%= article.updated_at.localtime.to_formatted_s(:db) %></p>
+   		</td>
+		<td class="admintable_column_operations">
+			<div> 
+				<%= link_to article, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>		
+				<% end %>
+	   			<%= link_to edit_article_path(article) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+	   			<% end %>
+	   			<%= link_to article, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление статьи' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i> 
+	   			<% end %>
+	   		</div>
+		</td>
+	</tr>
+	<% end %>
+</table>

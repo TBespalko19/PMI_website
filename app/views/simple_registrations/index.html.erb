@@ -1,0 +1,39 @@
+<h1>Listing simple_registrations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Company</th>
+      <th>City</th>
+      <th>Comment</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @simple_registrations.each do |simple_registration| %>
+      <tr>
+        <td><%= simple_registration.event_id %></td>
+        <td><%= simple_registration.first_name %></td>
+        <td><%= simple_registration.last_name %></td>
+        <td><%= simple_registration.phone %></td>
+        <td><%= simple_registration.email %></td>
+        <td><%= simple_registration.company %></td>
+        <td><%= simple_registration.city %></td>
+        <td><%= simple_registration.comment %></td>
+        <td><%= link_to 'Show', simple_registration %></td>
+        <td><%= link_to 'Edit', edit_simple_registration_path(simple_registration) %></td>
+        <td><%= link_to 'Destroy', simple_registration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Simple registration', new_simple_registration_path %>

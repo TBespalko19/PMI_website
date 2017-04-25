@@ -1,0 +1,55 @@
+<table class='table-admin'>
+	<tr><%= link_to new_event_path do %>
+			<i class="btn btn-info">Добавить мероприятие</i>
+		<% end %> 
+		<br><br>
+	</tr>
+	<tr>
+		<th>ИД</th>
+		<th>Заголовок мероприятия</th>
+		<th>Статус</th>
+		<th>Дата/время начала</th>
+		<th>Дата/время окончания</th>
+		<th>Длитель-ность (час.)</th>
+		<th>Город</th>
+		<th></th>
+	</tr>
+	<% @events.order('id DESC').each do |event| %>
+	<tr>
+		<td>
+			<p><%= event.id %></p>
+   		</td>
+		<td>
+			<p><%= event.event_languages.first.title %></p>
+   		</td>
+		<td>			
+			<p><%= event.status.status_languages.first.title %></p>
+   		</td>
+   		<td width="100px">
+   			<p><%= event.start_date.to_formatted_s(:rfc822) %></p>
+   		</td>
+   		<td width="100px">
+   			<p><%= event.end_date.to_formatted_s(:rfc822) %></p>
+   		</td>
+   		<td>
+   			<p><%= event.duration %></p>
+   		</td>
+   		<td>
+   			<p><%= event.city.city_languages.first.title %></p>
+   		</td>
+   		<td class="admintable_column_operations">
+   			<div> 
+				<%= link_to event, :target => '_blank' do %>
+					<i class="fa fa-file-text fa-lg icon btn btn-info operation_buttons"></i>
+				<% end %>
+				<%= link_to edit_event_path(event) do %>
+					<i class="fa fa-pencil fa-lg icon btn btn-info operation_buttons"></i> 
+				<% end %>   			
+	   			<%= link_to event, method: :delete, data: { confirm: 'Пожалуйста, подтвердите удаление мероприятия' }  do %>
+					<i class="fa fa-trash fa-lg icon btn btn-danger operation_buttons"></i>
+	   			<% end %>
+	   		</div>
+		</td>
+	</tr>
+	<% end %>
+</table>

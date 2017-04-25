@@ -1,0 +1,35 @@
+<h1>Listing event_languages</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Short event</th>
+      <th>Body</th>
+      <th>Author</th>
+      <th>Event</th>
+      <th>Lang</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @event_languages.each do |event_language| %>
+      <tr>
+        <td><%= event_language.title %></td>
+        <td><%= event_language.short_event %></td>
+        <td><%= event_language.body %></td>
+        <td><%= event_language.author %></td>
+        <td><%= event_language.event_id %></td>
+        <td><%= event_language.lang_id %></td>
+        <td><%= link_to 'Show', event_language %></td>
+        <td><%= link_to 'Edit', edit_event_language_path(event_language) %></td>
+        <td><%= link_to 'Destroy', event_language, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Event language', new_event_language_path %>
