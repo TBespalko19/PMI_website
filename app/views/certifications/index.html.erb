@@ -1,8 +1,10 @@
 <div class="row">	
-	<div class="col-md-12 sectioncontainer">		
-		<% c = @certifications.order('id DESC').first %>
-		<h3><b><%= c.title %></b></h3>
-		<span><%= c.body.html_safe %></span>
-		<br>
+	<div class="col-md-12 sectioncontainer">
+    <% if @certifications.present? -%>
+		  <% c = @certifications.order('id DESC').first %>
+      <h3><b><%= c.title %></b></h3>
+      <span><%= c.body.html_safe %></span>
+      <br>
+    <% end -%>
 	</div>	
 </div>
