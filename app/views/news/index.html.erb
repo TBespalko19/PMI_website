@@ -2,7 +2,7 @@
 	
 	<div class="col-md-8 sectioncontainer">
 		<h3><b>Новости PMI Kyiv Chapter</b></h3>
-      <% if @news.any? -%>
+      <% if @news.present? -%>
         <% @news.order('publish_date DESC').each do |news| %>
           <h4><%= news.title %></h4>
           <span><%= news.short_news.html_safe %></span>
