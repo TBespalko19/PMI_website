@@ -1,0 +1,1017 @@
+Run options: --seed 26009
+
+# Running:
+
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+Finished in 2.528736s, 49.8273 runs/s, 0.0000 assertions/s.
+
+  1) Error:
+StatusesControllerTest#test_should_create_status:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  2) Error:
+StatusesControllerTest#test_should_destroy_status:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  3) Error:
+StatusesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  4) Error:
+StatusesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  5) Error:
+StatusesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  6) Error:
+StatusesControllerTest#test_should_show_status:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  7) Error:
+StatusesControllerTest#test_should_update_status:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  8) Error:
+CertificationsControllerTest#test_should_create_certification:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+  9) Error:
+CertificationsControllerTest#test_should_destroy_certification:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 10) Error:
+CertificationsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 11) Error:
+CertificationsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 12) Error:
+CertificationsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 13) Error:
+CertificationsControllerTest#test_should_show_certification:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 14) Error:
+CertificationsControllerTest#test_should_update_certification:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 15) Error:
+NewsControllerTest#test_should_create_news:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 16) Error:
+NewsControllerTest#test_should_destroy_news:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 17) Error:
+NewsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 18) Error:
+NewsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 19) Error:
+NewsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 20) Error:
+NewsControllerTest#test_should_show_news:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 21) Error:
+NewsControllerTest#test_should_update_news:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 22) Error:
+ContactsControllerTest#test_should_create_contact:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 23) Error:
+ContactsControllerTest#test_should_destroy_contact:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 24) Error:
+ContactsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 25) Error:
+ContactsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 26) Error:
+ContactsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 27) Error:
+ContactsControllerTest#test_should_show_contact:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 28) Error:
+ContactsControllerTest#test_should_update_contact:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 29) Error:
+VolunteersControllerTest#test_should_create_volunteer:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 30) Error:
+VolunteersControllerTest#test_should_destroy_volunteer:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 31) Error:
+VolunteersControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 32) Error:
+VolunteersControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 33) Error:
+VolunteersControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:21', '2018-09-17 21:10:21', 980190962)
+    
+
+ 34) Error:
+VolunteersControllerTest#test_should_show_volunteer:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 35) Error:
+VolunteersControllerTest#test_should_update_volunteer:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 36) Error:
+EventLanguagesControllerTest#test_should_create_event_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 37) Error:
+EventLanguagesControllerTest#test_should_destroy_event_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 38) Error:
+EventLanguagesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 39) Error:
+EventLanguagesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 40) Error:
+EventLanguagesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 41) Error:
+EventLanguagesControllerTest#test_should_show_event_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 42) Error:
+EventLanguagesControllerTest#test_should_update_event_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 43) Error:
+ArticlesControllerTest#test_should_create_article:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 44) Error:
+ArticlesControllerTest#test_should_destroy_article:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 45) Error:
+ArticlesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 46) Error:
+ArticlesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 47) Error:
+ArticlesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 48) Error:
+ArticlesControllerTest#test_should_show_article:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 49) Error:
+ArticlesControllerTest#test_should_update_article:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 50) Error:
+CitiesControllerTest#test_should_create_city:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 51) Error:
+CitiesControllerTest#test_should_destroy_city:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 52) Error:
+CitiesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 53) Error:
+CitiesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 54) Error:
+CitiesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 55) Error:
+CitiesControllerTest#test_should_show_city:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 56) Error:
+CitiesControllerTest#test_should_update_city:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 57) Error:
+SimpleRegistrationsControllerTest#test_should_create_simple_registration:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 58) Error:
+SimpleRegistrationsControllerTest#test_should_destroy_simple_registration:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 59) Error:
+SimpleRegistrationsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 60) Error:
+SimpleRegistrationsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 61) Error:
+SimpleRegistrationsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 62) Error:
+SimpleRegistrationsControllerTest#test_should_show_simple_registration:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 63) Error:
+SimpleRegistrationsControllerTest#test_should_update_simple_registration:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 64) Error:
+EventsControllerTest#test_should_create_event:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 65) Error:
+EventsControllerTest#test_should_destroy_event:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 66) Error:
+EventsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 67) Error:
+EventsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 68) Error:
+EventsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 69) Error:
+EventsControllerTest#test_should_show_event:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 70) Error:
+EventsControllerTest#test_should_update_event:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 71) Error:
+StatusLanguagesControllerTest#test_should_create_status_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 72) Error:
+StatusLanguagesControllerTest#test_should_destroy_status_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 73) Error:
+StatusLanguagesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 74) Error:
+StatusLanguagesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 75) Error:
+StatusLanguagesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 76) Error:
+StatusLanguagesControllerTest#test_should_show_status_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 77) Error:
+StatusLanguagesControllerTest#test_should_update_status_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 78) Error:
+AboutsControllerTest#test_should_create_about:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 79) Error:
+AboutsControllerTest#test_should_destroy_about:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 80) Error:
+AboutsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 81) Error:
+AboutsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 82) Error:
+AboutsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 83) Error:
+AboutsControllerTest#test_should_show_about:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 84) Error:
+AboutsControllerTest#test_should_update_about:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:22', '2018-09-17 21:10:22', 980190962)
+    
+
+ 85) Error:
+LanguagesControllerTest#test_should_create_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 86) Error:
+LanguagesControllerTest#test_should_destroy_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 87) Error:
+LanguagesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 88) Error:
+LanguagesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 89) Error:
+LanguagesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 90) Error:
+LanguagesControllerTest#test_should_show_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 91) Error:
+LanguagesControllerTest#test_should_update_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 92) Error:
+CountriesControllerTest#test_should_create_country:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 93) Error:
+CountriesControllerTest#test_should_destroy_country:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 94) Error:
+CountriesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 95) Error:
+CountriesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 96) Error:
+CountriesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 97) Error:
+CountriesControllerTest#test_should_show_country:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 98) Error:
+CountriesControllerTest#test_should_update_country:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+ 99) Error:
+CountryLanguagesControllerTest#test_should_create_country_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+100) Error:
+CountryLanguagesControllerTest#test_should_destroy_country_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+101) Error:
+CountryLanguagesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+102) Error:
+CountryLanguagesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+103) Error:
+CountryLanguagesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+104) Error:
+CountryLanguagesControllerTest#test_should_show_country_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+105) Error:
+CountryLanguagesControllerTest#test_should_update_country_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+106) Error:
+MembershipsControllerTest#test_should_create_membership:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+107) Error:
+MembershipsControllerTest#test_should_destroy_membership:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+108) Error:
+MembershipsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+109) Error:
+MembershipsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+110) Error:
+MembershipsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+111) Error:
+MembershipsControllerTest#test_should_show_membership:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+112) Error:
+MembershipsControllerTest#test_should_update_membership:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+113) Error:
+ElectionsControllerTest#test_should_create_election:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+114) Error:
+ElectionsControllerTest#test_should_destroy_election:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+115) Error:
+ElectionsControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+116) Error:
+ElectionsControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+117) Error:
+ElectionsControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+118) Error:
+ElectionsControllerTest#test_should_show_election:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+119) Error:
+ElectionsControllerTest#test_should_update_election:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+120) Error:
+CityLanguagesControllerTest#test_should_create_city_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+121) Error:
+CityLanguagesControllerTest#test_should_destroy_city_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+122) Error:
+CityLanguagesControllerTest#test_should_get_edit:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+123) Error:
+CityLanguagesControllerTest#test_should_get_index:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+124) Error:
+CityLanguagesControllerTest#test_should_get_new:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+125) Error:
+CityLanguagesControllerTest#test_should_show_city_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+126) Error:
+CityLanguagesControllerTest#test_should_update_city_language:
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "event_id" of relation "events" does not exist
+LINE 1: INSERT INTO "events" ("event_id", "status_id", "city_id", "c...
+                              ^
+: INSERT INTO "events" ("event_id", "status_id", "city_id", "created_at", "updated_at", "id") VALUES (1, 1, 1, '2018-09-17 21:10:23', '2018-09-17 21:10:23', 980190962)
+    
+
+126 runs, 0 assertions, 0 failures, 126 errors, 0 skips

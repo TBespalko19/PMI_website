@@ -40,7 +40,7 @@
   </div>
   <div class="field">
     <%= f.label :city_id %><br>
-    <%= f.collection_select :city_id, CityLanguage.where('lang_id=1').order(:title), :city_id, :title, include_blank: false %>
+    <%= f.collection_select :city_id, CityLanguage.where('lang_id=1').order(:title), :city_id, :title, include_blank: false %> 
   </div>
 
   <div class="field">
