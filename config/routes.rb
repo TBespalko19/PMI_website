@@ -24,6 +24,7 @@
   get 'admin' => 'admin#index'
  # You can have the root of your site routed with "root"
   root 'news#index'
+  
 
 # OI > Authorization  
 #    resources :passwords,

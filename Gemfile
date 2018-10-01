@@ -54,7 +54,9 @@ gem 'rails_12factor', group: :production
 # WebServices
 gem 'savon'
 
-gem 'pg', '~> 0.20' # add version pg
+gem 'pry'
+
+gem 'pg', '~> 0.20.0' # add version pg
 
 # Pagination for news, events, etc.
 gem 'will_paginate', '~> 3.0'
